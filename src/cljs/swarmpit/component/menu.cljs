@@ -41,21 +41,22 @@
     :icon    (icon/computer {})
     :handler :node-list
     :domain  :node}
-   {:name "DATA"}
-   {:name    "Volumes"
-    :icon    (icon/storage {})
-    :handler :volume-list
-    :domain  :volume}
-   {:name    "Secrets"
-    :icon    (comp/svg icon/secrets-path)
-    :handler :secret-list
-    :route   "secrets"
-    :domain  :secret}
-   {:name    "Configs"
-    :icon    (comp/svg icon/configs-path)
-    :handler :config-list
-    :route   "configs"
-    :domain  :config}])
+  ;;  {:name "DATA"}
+  ;;  {:name    "Volumes"
+  ;;   :icon    (icon/storage {})
+  ;;   :handler :volume-list
+  ;;   :domain  :volume}
+  ;;  {:name    "Secrets"
+  ;;   :icon    (comp/svg icon/secrets-path)
+  ;;   :handler :secret-list
+  ;;   :route   "secrets"
+  ;;   :domain  :secret}
+  ;;  {:name    "Configs"
+  ;;   :icon    (comp/svg icon/configs-path)
+  ;;   :handler :config-list
+  ;;   :route   "configs"
+  ;;   :domain  :config}
+    ])
 
 (defn footer []
   (comp/box

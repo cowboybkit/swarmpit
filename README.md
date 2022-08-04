@@ -121,3 +121,10 @@ Support this project with your organization. Your logo will show up here with a 
 <a href="https://opencollective.com/swarmpit/organization/7/website"><img src="https://opencollective.com/swarmpit/organization/7/avatar.svg"></a>
 <a href="https://opencollective.com/swarmpit/organization/8/website"><img src="https://opencollective.com/swarmpit/organization/8/avatar.svg"></a>
 <a href="https://opencollective.com/swarmpit/organization/9/website"><img src="https://opencollective.com/swarmpit/organization/9/avatar.svg"></a>
+
+
+# For custom
+```
+lein uberjar
+docker build 
+```

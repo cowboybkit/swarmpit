@@ -38,8 +38,9 @@
         (form/item-info "No configs defined for the service."))
       (comp/card-content
         {:className "Swarmpit-table-card-content"}
-        (list/list
-          render-metadata
-          configs
-          onclick-handler)))))
+        ;; (list/list
+        ;;   render-metadata
+        ;;   configs
+        ;;   onclick-handler)
+       ))))
 

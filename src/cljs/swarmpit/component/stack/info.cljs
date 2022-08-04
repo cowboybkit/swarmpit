@@ -317,10 +317,11 @@
         (form/item-info "No configs in stack."))
       (comp/card-content
         {:className "Swarmpit-table-card-content"}
-        (list/list
-          (:list configs/render-metadata)
-          (sort-by :configName configs)
-          configs/onclick-handler)))))
+        ;; (list/list
+        ;;   (:list configs/render-metadata)
+        ;;   (sort-by :configName configs)
+        ;;   configs/onclick-handler)
+       ))))
 
 (rum/defc form-secrets < rum/static [stack-name secrets]
   (comp/card

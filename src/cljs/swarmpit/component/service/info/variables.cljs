@@ -33,7 +33,8 @@
         (form/item-info "No variables defined for the service."))
       (comp/card-content
         {:className "Swarmpit-table-card-content"}
-        (list/list
-          render-metadata
-          variables
-          nil)))))
+        ;; (list/list
+        ;;   render-metadata
+        ;;   variables
+        ;;   nil)
+       ))))

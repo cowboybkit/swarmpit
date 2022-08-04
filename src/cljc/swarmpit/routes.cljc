@@ -895,7 +895,7 @@
     ["/image" :service-create-image]
     ["/config" :service-create-config]]
    ["/services/:id" :service-info]
-   ["/services/:id/edit" :service-edit]
+;;    ["/services/:id/edit" :service-edit]
    ;; Stack
    ["/stacks" :stack-list]
    ["/stacks/create" :stack-create]
@@ -917,9 +917,9 @@
    ["/secrets/create" :secret-create]
    ["/secrets/:id" :secret-info]
    ;; Config
-   ["/configs" :config-list]
-   ["/configs/create" :config-create]
-   ["/configs/:id" :config-info]
+;;    ["/configs" :config-list]
+;;    ["/configs/create" :config-create]
+;;    ["/configs/:id" :config-info]
    ;; Node
    ["/nodes" :node-list]
    ["/nodes/:id" :node-info]
